@@ -38,16 +38,14 @@ button {
 }
 
 #overlay.visible {
-    opacity: 1; /* Make the overlay visible on click */
     pointer-events: auto; /* Enable pointer events when visible */
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 #resultMessage {
     font-size: 60px;
     font-weight: bold;
     color: #fff;
-    opacity: 0; /* Set initial opacity to 0 */
-    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 @keyframes fadeIn {
