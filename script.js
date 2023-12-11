@@ -1,4 +1,3 @@
-document.getElementById('findOutButton').addEventListener('click', function() {
-    document.getElementById('resultMessage').classList.remove('hidden');
-    document.getElementById('overlay').classList.remove('hidden');
+findOutButton.addEventListener('click', function () {
+    overlay.classList.toggle('visible');
 });
